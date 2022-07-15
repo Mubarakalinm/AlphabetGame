@@ -8,17 +8,17 @@
 
   
   
-<img src="/image/startgame.PNG" width="300px" height="500px" >
+<img src="/image/startgame.PNG" width="100%" height="100%"  >
 
 
 
  <h2 style="text-align:center ; background: black;color: white;">Success</h2>
 
- <img src="/image/success.PNG" width="300px" height="500px" >
+ <img src="/image/success.PNG" width="100%" height="100%"  >
 
     
  <h2 style="text-align:center ; background: black;color: white;">Failure</h2>
- <img src="/image/failure.PNG"width="300px" height="500px"/>
+ <img src="/image/failure.PNG" width="100%" height="100%" />
       
   <h2 style="text-align:center ; background: black;color: white;">Desktop Game Page</h2>
         
