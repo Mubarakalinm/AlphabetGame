@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AlphabetGame/static/css/main.3f1fba74.css",
+    "main.js": "/AlphabetGame/static/js/main.802eb550.js",
+    "static/js/787.b7f55478.chunk.js": "/AlphabetGame/static/js/787.b7f55478.chunk.js",
+    "index.html": "/AlphabetGame/index.html",
+    "main.3f1fba74.css.map": "/AlphabetGame/static/css/main.3f1fba74.css.map",
+    "main.802eb550.js.map": "/AlphabetGame/static/js/main.802eb550.js.map",
+    "787.b7f55478.chunk.js.map": "/AlphabetGame/static/js/787.b7f55478.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f1fba74.css",
+    "static/js/main.802eb550.js"
+  ]
+}
