@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: purple;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.heading{
+  width: 600px;
+  padding-bottom: 10px;
+  margin: 10px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+.main{
+  text-align: center;
+  padding-bottom: 10px;
+}
+.head{
+  font-weight: 100;
+  text-align: center;
+
+}
+
+.gamearea{
+  width: 500px;
+  height: 200px;
+  text-align: center;
+background-color: white;
+color: rgb(128, 62, 0);
+font-size: 60px;
+border-radius: 20px;
+margin-bottom: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+
+.timer{
+  width: 500px;
+  height: 100px;
+  text-align: center;
+}
+.time{
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+.besttime{
+  font-size: 20px;
+  font-weight: 50;
+  opacity: 75%;
+}
+
+.inpu{
+  width: 300px;
+  height: 30px;
+  color: black;
+  background-color: white;
+  border: none;
+  border-radius: 50px 20px;
+  text-align: center;
+  text-transform:uppercase;
+  outline: none;
+}
+
+.btn{
+  width: 70px;
+  height: 30px;
+  color: white;
+
+  background-color: #f1416c;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px 20px;
+}
+.inp{
+  font-size: 18px;
+
+}
+
+
+
+@media (max-width : 550px){
+
+  .container{
+    width: 100%;
+    text-align: center;
+    overflow-x: hidden ;
+  }
+  .heading{
+    width: 350px;
+    font-size: 0.75rem;
+
+  }
+  .gamearea{
+    width: 340px;
+    text-align: center;
+    font-size: 40px;
+  }
+  .inp{
+    width: 400px;
+    text-align: center;
+  }
+  .time{
+    font-size: 13px;
+  }
+  .besttime{
+    font-size: 15px;
+    opacity: 75%;
+
+  }
+
+  .inpu{
+    width: 200px;
+  }
+}
